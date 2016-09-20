@@ -3,7 +3,7 @@ Up Services if is down<br>
 # up_service
 Pass name of the service as parameter (Centos 7) <br>
 [root@localhost ~]# chmod 777 /etc/up_service.sh<br>
-Add to Cronjob
+Add to Cronjob<br>
 <code>@reboot /etc/up_service.sh mysqld</code><br>
 <code>@reboot /etc/up_service.sh mariadb</code><br>
 <code>@reboot /etc/up_service.sh nginx</code><br>
